@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      
+      "outDir": "path\\to\\static\\imusic\\ts_output",
+      "noImplicitAny": true,
+      "module": "es6",
+      "target": "es5",
+      "jsx": "react",
+      "allowJs": true,
+      "moduleResolution": "node16",
+    },
+    "typeAcquisition": {
+        "exclude": ["jest", "mocha"]
+      },
+  "include": ["static/imusic/**/*"],
+  "exclude": ["node_modules/**/*","**/node_modules/**/*"]
+    }

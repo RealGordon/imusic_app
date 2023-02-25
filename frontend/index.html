@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head><title>
+        Jammming
+    </title>
+   <!-- <link href="lib/Components/App/AppCss.css" rel="stylesheet">
+   <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>-->
+  <!--  <script src="js/react.development.js" ></script>
+    <script src="js/react-dom.development.js" ></script>-->
+
+<!--<script   src="js/babel.min.js"></script>
+<script  src="js/babel-standalone@6.26.0/babel.min.js"></script>-->
+<!-- data-type attr for babel to treat as module-->
+<!-- <script type="text/jsx"   data-type="module" src="index.js"></script>-->
+   
+<!--<script  type="module" src="lib/index.js"></script>-->
+<script defer  src="output/index.compiled.js"></script>
+</head>
+    <body><div id="website_loader" class="loader-wrapper">
+        <div  class="loader"></div></div>
+        <div id="root"></div>
+        <script>
+            function loader(action){
+                let style="block";
+                if(action==="off"){
+                    style="none"
+                }
+                document.getElementById("website_loader").style.display=style;
+            }
+            loader("off");
+        </script>
+        <script defer src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script>
+    function webNotify(name){
+        swal({
+  title: "Playlist Saved",
+  text: "Saved playlist: "+name,
+  icon: "success",
+  button: "OK",
+})
+};</script>
+    </body>
+
+</html>
