@@ -1,4 +1,4 @@
-# AMALITECH IMUSIC CAPSTONE PROJECT
+#  IMUSIC CAPSTONE PROJECT
 
 This is a collaborative music application submitted as part of the requirement for the Amalitech Graduate Training Program 
 
@@ -58,9 +58,6 @@ Registered users should be able to:
 - Google cloud firestore
 
 
-### Future works
-
-Future work on this project will seek to enhance the visuals, improve the interactivity and modifications to meet future customer demands.
 
 
 ## Authors
