@@ -12,7 +12,6 @@ iMusic Capstone Project from [Amalitech Training Academy](https://amalitech.org/
   - [Links](#links)
 - [Our process](#our-process)
   - [Built with](#built-with)
-  - [Future works](#future-works)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgments)
 
